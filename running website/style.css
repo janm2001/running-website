@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#background-img{
+    background:url("https://moneydotcomvip.files.wordpress.com/2016/11/161102_em_nycmarathon.jpg");
+    background-size: cover;
+    width:100%;
+    height: 700px;
+    background-position: center;
+
+}
+
+#background-img h3{
+    width: 100%;
+    
+    background: #ddd;
+    font-size:3rem;
+    text-align: center;
+    position: absolute;
+    top:40%;
+}
+
+#img-logo{
+    width: 100px;
+    height:60px;
+}
+
+nav{
+    background: #222;
+    display: flex;
+   
+}
+
+ul.items{
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-self: right;
+    justify-self: right;
+    float: right;
+    
+}
+
+ul.items li {
+    padding:10px;
+}
+
+#content{
+    width:80%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.container{
+    background: aqua;
+    
+}
+
+#marathon img{
+    width: 500px;
+}
+
+
+
+
+
+
+.items a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.items a:hover{
+    border-bottom: 2px solid #fff;
+    color:#aaa;
+}
